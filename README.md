@@ -4,7 +4,7 @@
 >
 > Follow me on X: [https://x.com/jiayuan_jy](https://x.com/jiayuan_jy)
 
-A single `CODEX.md`, `CLAUDE.md`, and `CURSOR.md` set to improve coding agent behavior, derived from [Andrej Karpathy's observations](https://x.com/karpathy/status/2015883857489522876) on LLM coding pitfalls.
+A single `CODEX.md`, `CLAUDE.md`, `CURSOR.md`, and `AGENTS.md` set to improve coding agent behavior, derived from [Andrej Karpathy's observations](https://x.com/karpathy/status/2015883857489522876) on LLM coding pitfalls.
 
 English | [简体中文](./README.zh.md)
 
@@ -124,6 +124,14 @@ Existing project (append):
 echo "" >> CLAUDE.md
 curl https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/CLAUDE.md >> CLAUDE.md
 ```
+
+## Using with Codex
+
+Use [`CODEX.md`](CODEX.md) for Codex-specific behavioral guidelines. For a fuller reusable Codex setup, copy these files into your Codex home or project root:
+
+- [`AGENTS.md`](AGENTS.md) - global Codex operating rules and working agreements
+- [`CODING_PATTERNS_ANALYSIS.md`](CODING_PATTERNS_ANALYSIS.md) - implementation pattern reference
+- [`COMPACTION_TEMPLATE.md`](COMPACTION_TEMPLATE.md) - compact summary and handoff template
 
 ## Using with Cursor
 
