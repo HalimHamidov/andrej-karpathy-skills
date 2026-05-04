@@ -127,12 +127,12 @@ curl https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/
 
 ## Using with Codex
 
-Use [`CODEX.md`](CODEX.md) for Codex-specific behavioral guidelines. For a fuller reusable Codex setup, copy these files into your Codex home or project root:
+Use [`codex/CODEX.md`](codex/CODEX.md) for Codex-specific behavioral guidelines. For a fuller reusable Codex setup, copy these files into your Codex home or project root:
 
-- [`CODEX.md`](CODEX.md) - Codex behavioral guidelines
-- [`AGENTS.md`](AGENTS.md) - global Codex operating rules and working agreements
-- [`CODING_PATTERNS_ANALYSIS.md`](CODING_PATTERNS_ANALYSIS.md) - implementation pattern reference
-- [`COMPACTION_TEMPLATE.md`](COMPACTION_TEMPLATE.md) - compact summary and handoff template
+- [`codex/CODEX.md`](codex/CODEX.md) - Codex behavioral guidelines
+- [`codex/AGENTS.md`](codex/AGENTS.md) - global Codex operating rules and working agreements
+- [`codex/CODING_PATTERNS_ANALYSIS.md`](codex/CODING_PATTERNS_ANALYSIS.md) - implementation pattern reference
+- [`codex/COMPACTION_TEMPLATE.md`](codex/COMPACTION_TEMPLATE.md) - compact summary and handoff template
 
 On Windows, the default global location is `C:\Users\HP\.codex\CODEX.md`.
 
