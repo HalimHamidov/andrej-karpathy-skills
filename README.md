@@ -131,6 +131,7 @@ Use [`codex/CODEX.md`](codex/CODEX.md) for Codex-specific behavioral guidelines.
 
 - [`codex/CODEX.md`](codex/CODEX.md) - Codex behavioral guidelines
 - [`codex/AGENTS.md`](codex/AGENTS.md) - global Codex operating rules and working agreements
+- [`codex/PROJECT_LOCAL_AGENTS_EXAMPLE.md`](codex/PROJECT_LOCAL_AGENTS_EXAMPLE.md) - example project-local `AGENTS.md`
 - [`codex/CODING_PATTERNS_ANALYSIS.md`](codex/CODING_PATTERNS_ANALYSIS.md) - implementation pattern reference
 - [`codex/COMPACTION_TEMPLATE.md`](codex/COMPACTION_TEMPLATE.md) - compact summary and handoff template
 
