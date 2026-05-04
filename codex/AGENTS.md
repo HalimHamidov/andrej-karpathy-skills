@@ -18,17 +18,25 @@ Precedence:
 
 Required global references:
 
+- [`C:\Users\HP\.codex\CODEX.md`](C:\Users\HP\.codex\CODEX.md)
+  Use this as the default Codex behavioral reference for explicit assumptions, simplicity-first implementation, surgical changes, and goal-driven verification.
 - [`C:\Users\HP\.codex\CODING_PATTERNS_ANALYSIS.md`](C:\Users\HP\.codex\CODING_PATTERNS_ANALYSIS.md)
   Use this as the default cross-project coding-pattern reference when choosing structure, type-safety patterns, validation style, async cleanup patterns, configuration patterns, error-handling patterns, caching strategy, invalidation rules, and implementation conventions.
 - [`C:\Users\HP\.codex\COMPACTION_TEMPLATE.md`](C:\Users\HP\.codex\COMPACTION_TEMPLATE.md)
   Use this as the default template for compact summaries, handoff notes, resume-state files, or any `CURRENT_COMPACTION.md`-style artifact unless the project defines a different local template.
+- [`C:\Users\HP\.codex\AGENTMEMORY_IMPLEMENTATION_SKILL.md`](C:\Users\HP\.codex\AGENTMEMORY_IMPLEMENTATION_SKILL.md)
+  Use this as the default global agentmemory implementation skill reference for persistent agent memory in every project, unless a nearer project `AGENTS.md` defines a different memory implementation.
 
 Application rules:
 
+- Consult `CODEX.md` for baseline Codex behavior when writing, reviewing, refactoring, debugging, or planning code.
 - Consult `CODING_PATTERNS_ANALYSIS.md` when the repo does not already establish a stronger local pattern.
 - Prefer adapting the pattern to the current stack rather than copying it mechanically.
 - Treat it as implementation guidance, not as permission to refactor unrelated code.
 - Consult `COMPACTION_TEMPLATE.md` whenever a handoff, compact summary, or resume-state document is needed.
+- Treat agentmemory as the default persistent memory implementation for all projects.
+- Consult `AGENTMEMORY_IMPLEMENTATION_SKILL.md` automatically when configuring or changing persistent memory, MCP, hooks, REST API usage, shared memory-server workflows, or project agent-memory guidance.
+- If a project defines a different memory provider or disables persistent memory in its nearest `AGENTS.md`, follow the project-local rule.
 - If a project already has its own compaction or handoff format, use the local format instead of the global one.
 
 ## Working Agreements
